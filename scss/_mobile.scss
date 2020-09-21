@@ -1,0 +1,49 @@
+@media only screen and (max-width: 768px) {
+  // Header
+header {
+  padding: 10px 0;
+}
+
+#navbar {
+  .social {
+    ul {
+      li {
+        padding: 10px;
+      } //End li
+    } //End ul
+  } //End .social
+} //End #navbar
+
+#showcase {
+  padding: 10px;
+  .showcase-search {
+    input {
+      width: 60%;
+    } //End input
+  } //End .showcase-search
+  p {
+    padding-top: 20px;
+    width: 80%;
+  }
+} //End #showcase
+
+// Search
+#search {
+  padding: 20px 0;
+  .search-wrap {
+    flex-direction: column;
+  } //End .search-wrap
+} //End #search
+
+// Article
+#article {
+  text-align: center;
+  img {
+    width: 100%;
+  }
+  p {
+    margin: 0px;
+  }
+}
+
+} //End @media
